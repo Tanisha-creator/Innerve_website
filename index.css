@@ -28,18 +28,38 @@ body,html{
         text-align: center;
         padding-top: 20px;
     }
+    
+    .container{
+        height: 100%;
+        margin-bottom: 20%;
+    }
 
-    .col{
+    .content{
+        text-align: justify;
+    }
+
+    .box{
         font-size: 50px;
         padding: 20px 80px;
     }
-
-
+   
     .highlight{
         animation:changecolor 5s infinite alternate;
         text-align: center;
     }
 
+    .footer{
+        background-color: #11324D;
+        color: gray;
+        height: 20em;
+    }
+
+    ul{
+        list-style: none;
+        display: flex;
+        gap: 20px;
+    }
+    
     @keyframes changecolor {
         0%{
             color: mediumspringgreen;
