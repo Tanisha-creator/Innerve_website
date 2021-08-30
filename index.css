@@ -51,8 +51,25 @@ body,html{
     .footer{
         background-color: #11324D;
         color: gray;
-        height: 20em;
+        height: 70%;
     }
+
+    .footer__head{
+        margin: 5px;
+        padding: 10px 10px;
+        }
+
+    .head{
+        display: inline;
+        margin: 20px;
+        padding-left: 18px;
+        padding-bottom: 10px;
+    }
+
+    .head__child{
+        margin-left: -20px;
+    }
+    
 
     ul{
         list-style: none;
@@ -79,4 +96,27 @@ body,html{
         100%{
             color: blueviolet;
         }
+    }
+
+    @media screen and (min-width: 600px) {
+      .footer__head{
+        display: flex;
+        justify-content: space-between;
+         }
+
+         
+    .head{
+        display: inline;
+
+        padding-left: 50px;
+        padding-bottom: 30px;
+        padding-right: 100px;
+    }
+    .head__child{
+        margin-left: -50px;
+    }
+
+    .footer{
+        height: 50%;
+    }
     }
