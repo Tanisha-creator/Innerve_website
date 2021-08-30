@@ -48,6 +48,11 @@ body,html{
         text-align: center;
     }
 
+    #carouselExampleControls{
+       position: relative;
+       top: 40px;
+    }
+
     .footer{
         background-color: #11324D;
         color: gray;
@@ -118,5 +123,15 @@ body,html{
 
     .footer{
         height: 50%;
+    }
+    #carouselExampleControls{
+        position: relative;
+        left: 20%;
+        top: 160px;
+        display: flex;
+        justify-items: center;
+        justify-content: space-around;
+        height: 60%;
+        width: 60%;
     }
     }
